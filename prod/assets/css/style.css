@@ -284,7 +284,10 @@ th {
 .container section .header-section nav ul li {
   list-style: none;
   float: left;
-  margin-right: 15px;
+  margin-right: 25px;
+}
+.container section .header-section nav ul li:last-child {
+  margin-right: 0;
 }
 .container section .header-section nav ul li a {
   text-decoration: none;
@@ -294,4 +297,46 @@ th {
   font-weight: 400;
   line-height: 25px;
   text-align: right;
+}
+.container section .banner-section {
+  background: url("../images/banner_background.jpg") no-repeat;
+  background-size: cover;
+}
+.container section .banner-section .banner-container .banner-left-container {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+.container section .banner-section .banner-container .banner-left-container img {
+  width: 100%;
+}
+.container section .banner-section .banner-container .banner-right-container {
+  width: 68%;
+  display: inline-block;
+  vertical-align: top;
+}
+.container section .banner-section .banner-container .banner-right-container h2 {
+  margin: 0;
+  font-family: OpenSans;
+  color: #fff;
+  font-size: 58px;
+  font-weight: 300;
+  line-height: 64px;
+  text-align: left;
+}
+.container section .banner-section .banner-container .banner-right-container p.movies-description {
+  font-family: OpenSans;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 54px;
+  text-align: left;
+}
+.container section .banner-section .banner-container .banner-right-container p.movies-forte span {
+  font-family: OpenSans;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
 }
